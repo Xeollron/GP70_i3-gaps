@@ -1,0 +1,29 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#455A64"
+  focus = system
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 1.34
+    background_image = None
+    background_type = transparent
+  [[i3-Default]]
+    palette = "#006559:#017e74:#95bcbb:#d2d5d8:#00bcd4:#a8b631:#019fb4:#334497:#4f6974:#028bc9:#a7c5dc:#959999:#007e8c:#b39ddb:#95c7cf:#e6e4e5"
+    background_darkness = 0.61
+    background_type = transparent
+    background_image = None
+    cursor_color = "#009688"
+    foreground_color = "#eceff1"
+    background_color = "#424242"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = i3-Default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
